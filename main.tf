@@ -89,4 +89,4 @@ output "instance_id" {
 output "instance_public_dns" {
   description = "Instance public dns"
   value = aws_instance.appserver.public_dns
-}
+}   
